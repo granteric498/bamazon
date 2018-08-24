@@ -2,7 +2,7 @@
 
 Bamazon is a simple e-commerce application. It implements a simple command line based storefront using the [`inquirer`](https://www.npmjs.com/package/inquirer) package and the [`mysql`](https://www.npmjs.com/package/mysql) package. The application presents two interfaces: **customer** and **manager**.
 
-Download [this video](usingBamazon.webm) to see how I use this application and how it works.
+Download [this video](usingBamazon.webm) to see how I use this application and how it works (click **View Raw** or **Download**).
 
 ### MySQL Setup
 
