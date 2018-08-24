@@ -2,6 +2,8 @@
 
 Bamazon is a simple e-commerce application. It implements a simple command line based storefront using the [`inquirer`](https://www.npmjs.com/package/inquirer) package and the [`mysql`](https://www.npmjs.com/package/mysql) package. The application presents two interfaces: **customer** and **manager**.
 
+Download [this video](usingBamazon.webm) to see how I use this application and how it works.
+
 ### MySQL Setup
 
 In order to run this application, you should have the MySQL database set up on your machine. If you don't, visit the [MySQL installation page](https://dev.mysql.com/doc/refman/5.6/en/installing.html) to install the version needed for your operating system. Once you have MySQL isntalled, you will be able to create the *Bamazon* database and the *products* table with the SQL code found in [bamazon.sql](bamazon.sql). Run this code inside your MySQL client, like [Sequel Pro](https://www.sequelpro.com/), to populate the database, then you will be ready to proceed with running the Bamazon customer and manager interfaces.
