@@ -27,7 +27,7 @@ function questions() {
         {
             type: 'input',
             name: 'id',
-            message: 'What is the ID# of the product you would like to buy?',
+            message: 'What is the ID# of the product you would like to buy?'
         },
     ]).then(function (response) {
         // Runs function that will produce individual product's information based on ID#
