@@ -14,12 +14,9 @@ var idNumber;
 
 connection.connect((err) => {
     if (err) throw err;
-    console.log(`Connected as id ${connection.threadId}`);
 
     // Function that prompts user information of all items in database.
     allItems();
-    // Then questions are asked on which item user wants to purchase.
-    questions();
 });
 
 function questions() {
@@ -72,12 +69,6 @@ function idInfo(response) {
 
         // Store the ID# in a variable so it is easy to call back.
         idNumber = results[0].item_id;
-
-        // Displays the information of the item for the user:
-        console.log(`Product Name: ${results[0].product_name}`);
-        console.log(`Department: ${results[0].department_name}`);
-        console.log(`Price: ${results[0].price}`);
-        console.log(`Stock Quantity: ${results[0].stock_quantity}`);
     });
 };
 
@@ -87,12 +78,10 @@ function allItems() {
         if (err) throw err;
 
         for (var i in results) {
-            console.log(`---------------------------------------------`);
-            console.log(`ID: ${results[i].item_id}`);
-            console.log(`Product Name: ${results[i].product_name}`);
-            console.log(`Department: ${results[i].department_name}`);
-            console.log(`Price: ${results[i].price}`);
-            console.log(`Stock Quantity: ${results[i].stock_quantity}`);
+            console.log(`ID: ${results[i].item_id} || Product Name: ${results[i].product_name} || Price: ${results[i].price}`);
         };
+
+        // Questions are asked on which item user wants to purchase.
+        questions();
     });
 };
