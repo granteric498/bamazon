@@ -14,7 +14,6 @@ var idNumber;
 
 connection.connect((err) => {
     if (err) throw err;
-    console.log(`Connected as id ${connection.threadId}`);
     
     // Questions are asked on what the user would like to do.
     questions();
