@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "0.0.1",
+  "description": "bamazon",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.2.0",
+    "i": "^0.3.6",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/granteric498/bamazon.git"
+  },
+  "author": "Grant Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/granteric498/bamazon/issues"
+  },
+  "homepage": "https://github.com/granteric498/bamazon#readme"
+}
